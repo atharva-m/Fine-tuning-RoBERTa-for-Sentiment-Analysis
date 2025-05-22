@@ -1,0 +1,11 @@
+train_file: data/train.csv
+model_name: roberta-base
+max_seq_length: 256
+output_dir: models/best_model
+epochs: 5
+batch_size: 40
+learning_rate: 5e-5
+weight_decay: 0.0000001
+warmup_steps: 500
+fp16: false
+seed: 42
