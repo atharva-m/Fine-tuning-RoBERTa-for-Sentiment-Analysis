@@ -12,22 +12,26 @@ This project demonstrates an end-to-end pipeline to fine-tune a `roberta-base` m
 ## 🚀 Quickstart
 
 ```bash
-# 1. Setup virtual environment
+# 1. Clone and enter the project
+$ git clone https://github.com/atharva-m/fine-tuning-roberta-for-sentiment-analysis.git
+$ cd fine-tuning-roberta-for-sentiment-analysis
+
+# 2. Setup virtual environment
 $ python -m venv .venv && source .venv/bin/activate  
 
-# 2. Install dependencies
+# 3. Install dependencies
 $ pip install -r requirements.txt
 
-# 3. Train model
+# 4. Train model
 $ python src/train.py --config config.yaml
 
-# 4. Evaluate on test set
+# 5. Evaluate on test set
 $ python src/evaluate.py --config config.yaml
 
-# 5. Predict a single text
+# 6. Predict a single text
 $ python src/predict.py --checkpoint models/best_model --text "Some tweet here"
 
-# 6. Batch prediction
+# 7. Batch prediction
 $ python src/predict.py --checkpoint models/best_model --input data/test.csv --output predictions.csv
 ```
 
