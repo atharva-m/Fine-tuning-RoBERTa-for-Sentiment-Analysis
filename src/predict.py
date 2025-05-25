@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # predict.py — Inference for fine-tuned RoBERTa (Hate Speech Classification)
 
 import argparse
