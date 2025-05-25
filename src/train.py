@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # train.py — Fine-tune RoBERTa for Sentiment Analysis (Hate Speech Classification)
 
 import argparse
