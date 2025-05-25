@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # evaluate.py — Evaluate fine-tuned RoBERTa model on held-out test set
 
 import argparse
